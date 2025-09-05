@@ -18,6 +18,18 @@
 </head>
 
 <body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: none;">
+        <defs>
+            <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 35 -15"
+                    result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+        </defs>
+    </svg>
+
+    <div id="cursor" class="Cursor"></div>
 
     <header id="header" class="site-header">
         <nav class="nav-container">
@@ -84,8 +96,6 @@
     <main>
         <section class="hero-section">
             <div class="slideshow-container">
-                <div class="slide" style="background-image: url('jonha-falls-ranchi-jharkhand-new.jpg');"></div>
-
                 <div class="slide">
                     <video muted playsinline poster="jonha-falls-ranchi-jharkhand-new.jpg">
                         <source src="Jonha_Falls_Cinematic_Video_Generation.mp4" type="video/mp4">
@@ -132,7 +142,8 @@
                                 </path>
                             </svg></div>
                         <h3 class="card-title-lg">From Dream to Destination</h3>
-                        <p class="card-text-sm">We plan your itinerary for you, turning your expectations into reality with hassle free plan-making, cost friendly options and a lovely experience.</p>
+                        <p class="card-text-sm">We plan your itinerary for you, turning your expectations into reality
+                            with hassle free plan-making, cost friendly options and a lovely experience.</p>
                     </div>
                     <div class="feature-card fade-in-element">
                         <div class="feature-icon-wrapper"><svg class="feature-icon" fill="none" stroke="currentColor"
@@ -142,7 +153,8 @@
                                 </path>
                             </svg></div>
                         <h3 class="card-title-lg">Step Into Your Destination, Virtually</h3>
-                        <p class="card-text-sm">We provide a real world fish-eye view of your destination, so you know exactly the treat you are in for with the help of our AR/VR integration.</p>
+                        <p class="card-text-sm">We provide a real world fish-eye view of your destination, so you know
+                            exactly the treat you are in for with the help of our AR/VR integration.</p>
                     </div>
                     <div class="feature-card fade-in-element">
                         <div class="feature-icon-wrapper"><svg class="feature-icon" fill="none" stroke="currentColor"
@@ -152,7 +164,9 @@
                                 </path>
                             </svg></div>
                         <h3 class="card-title-lg">Travel You Can Trust</h3>
-                        <p class="card-text-sm">We help you book confidently, ensure secure transactions, so you can have a seamless journey,  with trusted and verified guides with the help of our blockchain technology.</p>
+                        <p class="card-text-sm">We help you book confidently, ensure secure transactions, so you can
+                            have a seamless journey, with trusted and verified guides with the help of our blockchain
+                            technology.</p>
                     </div>
                     <div class="feature-card fade-in-element">
                         <div class="feature-icon-wrapper">
@@ -164,7 +178,8 @@
                             </svg>
                         </div>
                         <h3 class="card-title-lg">Navigate Smarter, Explore Easier</h3>
-                        <p class="card-text-sm">Get live updates on local transport, navigate with ease, and find nearby amenities instantly, make your tour a hassle-free experience!</p>
+                        <p class="card-text-sm">Get live updates on local transport, navigate with ease, and find nearby
+                            amenities instantly, make your tour a hassle-free experience!</p>
                     </div>
                 </div>
             </div>
@@ -365,5 +380,5 @@
     </footer>
     <script src="script.js" defer></script>
 </body>
-</html>
 
+</html>
