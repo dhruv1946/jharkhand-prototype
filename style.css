@@ -1249,3 +1249,15 @@ html.dark .site-footer {
     transform-origin: center center;
     transform: translate(-50%, -50%);
 }
+
+@media (hover: none),
+(pointer: coarse),
+(max-width: 1024px) {
+    body {
+        cursor: auto;
+    }
+
+    .Cursor {
+        display: none;
+    }
+}
