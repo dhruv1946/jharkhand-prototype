@@ -1069,7 +1069,3 @@ html.dark .site-footer {
 .footer-grid .fade-in-element:nth-child(4) {
     transition-delay: 0.3s;
 }
-
-body {
-    border: 10px solid red !important;
-}
