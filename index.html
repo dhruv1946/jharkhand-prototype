@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jharkhand Tourism - The Land of Forests</title>
+    <meta name="description"
+        content="Explore the hidden treasures of Jharkhand. Plan your trip with our AI-powered tools, discover rich tribal culture, and experience breathtaking natural beauty.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header" class="site-header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="#">
+                        <span class="logo-initial">J</span>HARKHAND
+                    </a>
+                </div>
+
+                <div class="nav-right">
+                    <div class="nav-links">
+                        <a href="#features">Features</a>
+                        <a href="#destinations">Destinations</a>
+                        <a href="#marketplace">Marketplace</a>
+                        <a href="#emergency">Emergency</a>
+                    </div>
+
+                    <div class="nav-actions">
+                        <a href="#local-partner" class="partner-login">Local Partner Login</a>
+
+                        <label for="theme-toggle" class="theme-switch">
+                            <input type="checkbox" id="theme-toggle" class="theme-switch-input">
+                            <span class="theme-switch-slider">
+                                <span class="icon-wrapper sun">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span class="icon-wrapper moon">
+                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </span>
+                        </label>
+
+                        <div class="mobile-menu-container">
+                            <button id="mobile-menu-button">
+                                <svg class="icon-menu" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h16m-7 6h7"></path>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="mobile-menu hidden">
+                <a href="#features">Features</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#marketplace">Marketplace</a>
+                <a href="#emergency">Emergency</a>
+                <a href="#local-partner" class="mobile-partner-login">Local Partner Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-overlay"></div>
+            <img src="jonha-falls-ranchi-jharkhand-new.jpg"
+                onerror="this.onerror=null;this.src='https://placehold.co/1920x1080/052e16/ffffff?text=Hundru+Falls';"
+                alt="Hundru Falls in Jharkhand" class="hero-bg-image">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover Jharkhand</h1>
+                <p class="hero-subtitle">The Soul of India: A land of ancient temples, pristine waterfalls, and vibrant
+                    tribal culture.</p>
+                <a href="#features" class="button button-primary">Start Your Adventure</a>
+            </div>
+        </section>
+
+        <section id="features" class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Your Smart Travel Companion</h2>
+                    <p class="section-subtitle">Leveraging cutting-edge technology to make your journey seamless,
+                        secure, and unforgettable.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper"><svg class="feature-icon" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 6V4m0 16v-2m0-10a2 2 0 100 4 2 2 0 000-4zm-4-2a2 2 0 100 4 2 2 0 000-4zM8 20a2 2 0 100-4 2 2 0 000 4zm8-16a2 2 0 100 4 2 2 0 000-4zm0 14a2 2 0 100 4 2 2 0 000-4z">
+                                </path>
+                            </svg></div>
+                        <h3 class="card-title-lg">AI Itinerary Planner</h3>
+                        <p class="card-text-sm">Craft a personalized journey based on your interests, budget, and travel
+                            style.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper"><svg class="feature-icon" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                </path>
+                            </svg></div>
+                        <h3 class="card-title-lg">AR/VR Site Previews</h3>
+                        <p class="card-text-sm">Step into our destinations virtually before you even pack your bags.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper"><svg class="feature-icon" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z">
+                                </path>
+                            </svg></div>
+                        <h3 class="card-title-lg">Blockchain Verified Services</h3>
+                        <p class="card-text-sm">Book with confidence. Secure transactions and certified guides, verified
+                            on blockchain.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon-wrapper">
+                            <svg class="feature-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17.657 5.343a8 8 0 11-11.314 0a8 8 0 0111.314 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="card-title-lg">Real-time Transport & Location Info</h3>
+                        <p class="card-text-sm">Get live updates on local transport, navigate with ease, and find nearby
+                            amenities instantly.</p>
+                    </div>
+                </div>
+        </section>
+
+        <section id="destinations" class="content-section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Popular Destinations</h2>
+                    <p class="section-subtitle">Explore the jewels of Jharkhand that captivate every traveler.</p>
+                </div>
+                <div class="destinations-grid">
+                    <div class="destination-card"><img class="card-image" src="parasnath-hills.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/166534/ffffff?text=Parasnath+Hills';"
+                            alt="Parasnath Hills">
+                        <div class="card-content">
+                            <h3 class="card-title">Parasnath Hills</h3>
+                            <p class="card-text">A major pilgrimage center for Jains, offering serene trails and
+                                panoramic views.</p>
+                        </div>
+                    </div>
+                    <div class="destination-card"><img class="card-image"
+                            src="dassam-falls-ranchi-jharkhand-ranchi-1-attr-hero.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/166534/ffffff?text=Dassam+Falls';"
+                            alt="Dassam Falls">
+                        <div class="card-content">
+                            <h3 class="card-title">Dassam Falls</h3>
+                            <p class="card-text">Watch the Kanchi River dramatically fall from a height of 144 feet into
+                                a stunning gorge.</p>
+                        </div>
+                    </div>
+                    <div class="destination-card"><img class="card-image" src="Patratu_Valley_at_night.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/600x400/166534/ffffff?text=Patratu+Valley';"
+                            alt="Patratu Valley">
+                        <div class="card-content">
+                            <h3 class="card-title">Patratu Valley</h3>
+                            <p class="card-text">Famous for its mesmerizing winding roads, lush greenery, and the
+                                stunning Patratu Dam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="marketplace" class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Local Marketplace</h2>
+                    <p class="section-subtitle">Support local communities and take home a piece of Jharkhand's unique
+                        heritage.</p>
+                </div>
+                <div class="marketplace-grid">
+                    <div class="marketplace-item"><img src="9dd462_1e3b7e6af73643c3a093de2272ac67e8~mv2.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/15803d/ffffff?text=Paitkar+Painting';"
+                            class="marketplace-image">
+                        <h3 class="marketplace-title">Paitkar Paintings</h3><a href="#" class="marketplace-link">Shop
+                            Now &rarr;</a>
+                    </div>
+                    <div class="marketplace-item"><img src="461d3c4acc8cf7b39836a4f4be44d48b2b234a18.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/15803d/ffffff?text=Homestay';"
+                            class="marketplace-image">
+                        <h3 class="marketplace-title">Ecotourism & Homestays</h3><a href="#"
+                            class="marketplace-link">Book an Experience &rarr;</a>
+                    </div>
+                    <div class="marketplace-item"><img src="handmadedownscaledh_8ldopmrteh3_2000x2000__26146.jpg"
+                            onerror="this.onerror=null;this.src='https://placehold.co/400x400/15803d/ffffff?text=Sohrai+Art';"
+                            class="marketplace-image">
+                        <h3 class="marketplace-title">Sohrai & Khovar Art</h3><a href="#"
+                            class="marketplace-link">Discover Art &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="local-partner" class="partner-cta">
+            <div class="container">
+                <h2 class="partner-cta-title">Become a Local Partner</h2>
+                <p class="partner-cta-subtitle">Are you a guide, artisan, or homestay owner? Join our platform to get a
+                    digital, blockchain-verified certification and reach a global audience.</p>
+                <a href="#" class="button button-light">Register Now</a>
+            </div>
+        </section>
+
+        <section id="emergency" class="content-section alt-bg">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Emergency Support</h2>
+                    <p class="section-subtitle">Your safety is our priority. Here are some important contacts.</p>
+                </div>
+                <div class="emergency-grid">
+                    <div class="emergency-card"><svg class="emergency-icon police" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
+                            </path>
+                        </svg>
+                        <h3 class="emergency-title">Police</h3>
+                        <p class="emergency-number police">100 / 112</p><a href="tel:100"
+                            class="button button-emergency police">Call Now</a>
+                    </div>
+                    <div class="emergency-card">
+                        <svg class="emergency-icon medical" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z">
+                            </path>
+                        </svg>
+                        <h3 class="emergency-title">Medical / Ambulance</h3>
+                        <p class="emergency-number medical">108</p>
+                        <a href="tel:108" class="button button-emergency medical">Call Now</a>
+                    </div>
+                    <div class="emergency-card"><svg class="emergency-icon fire" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.657 7.343A8 8 0 0117.657 18.657z">
+                            </path>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.354 15.646l-2 2"></path>
+                        </svg>
+                        <h3 class="emergency-title">Fire Support</h3>
+                        <p class="emergency-number fire">101</p><a href="tel:101"
+                            class="button button-emergency fire">Call Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <button class="fab-chatbot"><svg class="fab-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z">
+                </path>
+            </svg><span class="sr-only">Open AI Chatbot</span></button>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3 class="footer-title">Jharkhand Tourism</h3>
+                    <p class="footer-text">Experience the raw beauty and rich cultural heritage. Your next adventure
+                        awaits.</p>
+                    <p class="footer-text-sm">For Officials: <a href="#" class="footer-link-underline">Analytics
+                            Dashboard</a></p>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#marketplace">Marketplace</a></li>
+                        <li><a href="#local-partner">For Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-contact">
+                        <li><span class="contact-icon"><svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd"
+                                        d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                        clip-rule="evenodd"></path>
+                                </svg></span><span>Ranchi, Jharkhand, India</span></li>
+                        <li><span class="contact-icon"><svg fill="currentColor" viewBox="0 0 20 20">
+                                    <path
+                                        d="M2.003 5.884L10 2.006l7.997 3.878A2 2 0 0119 7.681V18a1 1 0 01-1 1H2a1 1 0 01-1-1V7.681a2 2 0 011.003-1.797zM10 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z">
+                                    </path>
+                                </svg></span><span>info@jharkhandtourism.gov</span></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3 class="footer-title">Follow Us</h3>
+                    <div class="footer-socials">
+                        <a href="#"><svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M22.46,6C21.69,6.35 20.86,6.58 20,6.69C20.88,6.16 21.56,5.32 21.88,4.31C21.05,4.81 20.13,5.16 19.16,5.36C18.37,4.5 17.26,4 16,4C13.65,4 11.73,5.92 11.73,8.29C11.73,8.63 11.77,8.96 11.84,9.27C8.28,9.09 5.11,7.38 3,4.79C2.63,5.42 2.42,6.16 2.42,6.94C2.42,8.43 3.17,9.75 4.33,10.5C3.62,10.5 2.96,10.3 2.38,10C2.38,10 2.38,10 2.38,10.03C2.38,12.21 3.86,13.85 5.82,14.24C5.46,14.34 5.08,14.39 4.69,14.39C4.42,14.39 4.15,14.36 3.89,14.31C4.43,16 6,17.26 7.89,17.29C6.43,18.45 4.58,19.13 2.56,19.13C2.22,19.13 1.88,19.11 1.54,19.07C3.44,20.29 5.7,21 8.12,21C16,21 20.33,14.46 20.33,8.79C20.33,8.6 20.33,8.42 20.32,8.23C21.16,7.63 21.88,6.87 22.46,6Z">
+                                </path>
+                            </svg></a>
+                        <a href="#"><svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M19,4H15A5,5 0 0,0 10,9V11H7V15H10V22H14V15H17.14L18,11H14V9A1,1 0 0,1 15,8H18V4Z">
+                                </path>
+                            </svg></a>
+                        <a href="#"><svg class="social-icon" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2025 Department of Tourism, Arts, Culture, Sports & Youth Affairs, Govt. of Jharkhand. All
+                    Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
